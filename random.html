@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        color: white;
+    }
+    header::before{
+        content: "";
+        background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -33;
+        opacity: 0.3;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    section {
+        display: flex;
+        margin: 3px 23px;
+        flex-direction: column;
+        align-items: center;
+        height: 340px;
+        justify-content: center;
+        /* border: 2px solid red; */
+        font-family: 'Redressed', cursive;
+
+    }
+
+    .nav {
+        display: flex;
+        font-size: 20px;
+    }
+
+    li {
+        list-style: none;
+        padding: 10px;
+        font-family: 'Redressed', cursive;
+
+    }
+
+        /* section::after */
+    /* section::before {
+        content: "This is a content"
+    } */
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    section p {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="item">Home</li>
+                <li class="item">About Us</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur maxime sed architecto. Reiciendis
+            nam voluptatem placeat accusantium, quis minima excepturi eaque magni quod enim quasi dicta ratione quidem
+            consectetur illo odio obcaecati ipsum tempore laboriosam voluptate eum repudiandae ad ipsa. Minima non
+            officia dolorem dolores est maiores, a nemo.</p>
+    </section>
+    
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <style>
+        /* css reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('images/R5aa870b48c1222243fe9389cceda320c.jfif');
+            /* background-repeat: no-repeat; */
+            /* height: 1000px; */
+            width: 100%;
+            color: white;
+            font-family: 'Bangers', cursive;
+            
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 54px;
+            top: 20px;
+
+        }
+
+        .mid {
+            /* border: 2px solid yellow; */
+            display: block;
+            width: 39%;
+            margin: 20px auto;
+            /* position: sticky; */
+
+        }
+
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 34px;
+            font-size: larger;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .left img {
+            height: 100px;
+            width: 100px;
+            border: 2px solid yellow;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 12px;
+            border: 2px solid grey;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Bangers', cursive;
+        }
+
+        .btn:hover {
+            background-color: rgb(61, 56, 56);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 116px 700px;
+            padding: 50px 50px;
+            width: 45%;
+            border-radius: 17px;
+            color: rgba(2, 2, 2, 0.918);
+        }
+        .form-group input{
+            font: larger;
+            margin: 6px auto;
+            padding: 5px;
+            text-align: center;
+            display: block;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: 'Bangers', cursive;
+        }
+        .container h1{
+            text-align: center;
+            background-color: rgb(150, 133, 133);
+            border-radius: 5px;
+            /* display: inline-block;
+            width: 700px; */
+        }
+        .container button{
+            display: block;
+            width: 22%;
+            margin: 4px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="class">
+        <div class="left">
+            <img src="images/weightlifting-2227543__340.webp" alt="">
+            <div>Gym Gym</div>
+        </div>
+        <!-- left for logo -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- mid for nav bar -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+        </div>
+        <!-- right for call -->
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Chandigarh now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Moblie Number">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+            <button class="btn">
+                reset
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
